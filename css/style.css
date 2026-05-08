@@ -47,7 +47,11 @@ nav a {
     font-size: 1.4rem;
     margin: 5px;
     text-align: center;
-    text-align: center;
+}
+
+nav a:hover {
+    background-color: rgb(182, 182, 182);
+    color: rgb(59, 59, 59);
 }
 
 .hero {
@@ -116,15 +120,17 @@ nav a {
     text-align: left;
 }
 
-.layout-2col .lateral h2{
+.layout-2col .lateral h2 {
     font-size: 2rem;
-    text-align: center;
+    text-align: left;
 
 }
 
 .layout-2col .lateral {
     flex: 1;
     background-color: #2c2c2c;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 aside ol {
@@ -136,23 +142,30 @@ aside ol {
 aside ol::marker {
     color: white;
 }
-footer{
+
+footer {
     background-color: #1d1d1d;
 }
+
 .footer-grid {
-  display: flex;
-  justify-content: space-between;
-  gap: 40px;
-  flex-wrap: wrap;
-  max-width: 1300px;
-  margin: 0 auto;
-  padding: 40px 20px;
-  background-color: #1d1d1d;
-  color:white;
-  font-size: 1.7rem;
+    display: flex;
+    justify-content: left;
+    gap: 40px;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    background-color: #1d1d1d;
+    color: rgb(209, 209, 209);
+    font-size: 1.7rem;
+    height: 120px;
 }
 
 .footer-col {
-  flex: 1;
-  min-width: 200px;
+    flex: 1;
+    min-width: 200px;
+}
+
+#meu_copy {
+    color: #303030;
 }
